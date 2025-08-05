@@ -1,0 +1,52 @@
+# virtual-env
+/dna-classifier/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (alternate names)
+venv/
+env/
+
+# Data files (don’t version-control large raw data or FASTA/CSV dumps)
+data/
+*.fasta
+*.fa
+*.fastq
+*.csv
+*.tsv
+
+# Model artifacts & checkpoints
+*.h5
+*.ckpt
+*.pb
+*.pt
+checkpoints/
+
+# Logs and TensorBoard
+logs/
+*.log
+events.out.tfevents.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files & secrets
+.env
+*.env
+kaggle.json
+
+# IDE/project settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Optional: coverage reports
+htmlcov/
+.coverage
