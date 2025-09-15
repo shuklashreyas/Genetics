@@ -1,3 +1,4 @@
-# Genetics
+# CompBio
 
-Test
+pip install -r requirements.txt
+streamlit run app.py
